@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rocketChat</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <link rel="icon" href="./assets/chats-circle-duotone.svg" type="image/x-icon">
+</head>
+<body>
+  <div id="app">
+      <div id="top">
+        <div id="user-info">
+          <img src="https://randomuser.me/api/portraits/women/12.jpg" 
+          alt="Ícone do usuário no canto esquerdo superior da tela">
+          <div id="user-status">
+            <strong>Cecília Sassaki</strong>
+            <div class="status">Online</div>
+          </div>
+          </div>
+        <div id="close-chat-icon">
+          <button>
+            <i class="ph-x-fill"></i>
+          </button>
+        </div>
+      </div>
+      <div id="messages">
+        <div id="last-message">Hoje 11h30am</div>
+        <div class="messages">
+          <div class="message">
+            <div class="user-received-date">Cecilia - 11h30am</div>
+            <div class="message-received">Tive uma ideia muito massa para um projeto!! 😍</div>
+          </div>
+          <div class="message-user">
+            <div class="user-sent-date">Você - 11h32am</div>
+            <div class="message-sent">Sério?? Me conta mais!</div>
+          </div>
+          <div class="message">
+            <div class="user-received-date">Cecilia - 11h34am</div>
+            <div class="message-received">E se a gente fizesse um chat moderno e responsivo em uma semana?</div>
+          </div>
+          <div class="message-user">
+            <div class="user-sent-date">Você - 11h36am</div>
+            <div class="message-sent"><strong>Adorei a ideia #boraCodar esse projeto! 🚀</strong></div>
+          </div>
+          <div class="message-user">
+            <div class="user-sent-date">Você - 11h39am</div>
+            <div class="message-sent">Inclusive, se tivermos dificuldades, o Maykão postou um vídeo com um tema de chat no canal da Rocket huahau, se liga aí, 
+              <a href="https://www.youtube.com/watch?v=iQkN0Lo3Kwo">https://www.youtube.com/watch?v=iQkN0Lo3Kwo</a></div>
+          </div>
+          <div class="message">
+            <div class="user-received-date">Cecilia - 11h41am</div>
+            <div class="message-received">Massa demais kkkk vou dar uma estudada por cima e reforçar umas coisas! Valeu ai 💜</div>
+          </div>
+        </div>
+      </div>
+      <form id="bottom">
+            <input type="text" placeholder="Digite sua mensagem...">
+            <button>
+              <i class="ph-paper-plane-right-fill"></i>
+            </button>
+      </div>
+    </div>
+  </div>
+  <script>
+    const messages = document.querySelector('.messages')
+    messages.lastElementChild.scrollIntoView()
+  </script>
+</body>
+</html>
