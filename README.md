@@ -13,9 +13,7 @@ Projeto desenvolvido durante o desafio 4 do #boraCodar proposto pela Rocketseat 
 
 <br>
 
-<p align="center">
-  <img alt="projeto Chat" src=".github/preview.jpg" width="100%">
-</p>
+  ![preview](https://user-images.githubusercontent.com/90655096/216504202-f2e623ad-c7bf-4146-9185-1e2f4be584b8.jpg)
 
 ## 🚀 Tecnologias
 
